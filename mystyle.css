@@ -1,70 +1,99 @@
 
 body {
-    padding-left: 11em;
-    font-family: "Helvetica", "Times New Roman", Times, serif;
-    color: navy;
-    background-color: #cccccc }
+    font-family: "AvenirNext-Bold", "Times New Roman", Times, serif;
+    color: #4A4A4A;
+    background-color: #FFFFFF }
 
 h1 {
-    padding-bottom: 0em;
-    margin: 0 0;
-    margin-top: 50em;
-    padding: 0;
-    line-height: 0%;
+    margin-bottom: 0;
 }
 
-
-
-zap{ margin: 100px 100px 100px 100px}
-
+h2{
+    margin: 0 0 0 0;
+    font-size 10px;
+}
 
 h3 {padding-top: 0em;
     padding-bottom: 0em;
     margin: 0 0;
     color: crimson;
-    
+    text-align: center;
 }
 
-img{
-    margin: 0 0 10px 10px;
-}
-ul.navbar{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 9em
+#header{
+    border-bottom:2.5px solid #4A4A4A;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
 }
 
-ul.navbar li {
-    background: lightgray;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right 1em solid black
-    
+#links{
+    color:#FFFFFF;
+}
 
-}
-ul.navbar a {
-    text-decoration: none;
-}
 a:link{
-    color:blue;
+    color:#4A4A4A;
     text-decoration: none;
 }
 
-a:visited{
-    color:blue;
+#linkbar li a:visited{
+    color:#4A4A4A;
     text-decoration: none;}
 
-address{
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted}
-
-profilepic{
-    position: absolute;
+#linkbar li a:hover{
+    text-decoration: none;
 }
 
-h1 {font-family: "Arial", sans-serif;}
+#linkbar{
+    
+    text-align: center;
+    list-style: none;
+   
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#linkbar li {
+    text-align: center;
+    margin-right: -4px;
+    display: inline;
+}
+
+#linkbar a{
+    display: inline;  
+    padding: 50px;
+}
+
+#introduction{
+ 
+    font-family: AvenirNext-Regular;
+    font-size: 18px;
+    line-height: 26px;
+    float: left;
+    width: 55%;
+    margin-left: 40px;
+}
+
+#introduction ul li {
+    list-style: none;
+}
+
+#profilediv{
+    float: right;
+    right: 0;
+    padding-right: 40px;
+}
+
+#profile{
+
+    border: 1px solid black;
+}
+
+/* PROJECTS.HTML */
+
+#project_list{
+    float:left;
+    font-family: AvenirNext-Regular;
+    
+}
+
