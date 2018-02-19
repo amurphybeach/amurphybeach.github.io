@@ -24,6 +24,17 @@ h4 {
     font-family: AvenirNext-Regular;
 }
 
+h5{ 
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin: 0 0;
+    color: crimson;
+    text-align: center;
+    font-size: 2em;
+
+
+}
+
 
 
 #header{
@@ -76,7 +87,7 @@ a:link{
     font-size: 18px;
     line-height: 26px;
     float: left;
-    width: 55%;
+    width: 60%;
     margin-left: 40px;
 }
 
@@ -178,5 +189,28 @@ a:link{
 }
 .flr { /* floats right */
     float:right;
+}
+
+.exampleimage{
+    width="128"; 
+    height="128";
+}
+
+#introduction_jenneke{
+ 
+    font-family: AvenirNext-Regular;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+.image-gallery-container{
+    display:flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    align-items: center;
+    border: 30px;
+    justify-content: center;
+
 }
 
